@@ -44,7 +44,7 @@ App 能力 API 的回答会主动使用 Fast Window 统一标准说法。宿主�
 ## 构建
 
 ```txt
-npm --prefix apps/ai-once run build:backend
-npm --prefix apps/ai-once run build:ui
-cargo check --manifest-path apps/ai-once/src-tauri/Cargo.toml
+npm run build:backend
+npm run build:ui
+cargo check --manifest-path src-tauri/Cargo.toml
 ```
